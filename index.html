@@ -182,7 +182,7 @@
       for (let i = 0; i < expenses.length; i++) {
         const item = expenses[i];
         const li = document.createElement('li');
-        li.textContent = ${item.date} - ${item.description} (${item.category}): ₱${item.amount.toFixed(2)};
+        li.textContent = `${item.date} - ${item.description} (${item.category}): ₱${item.amount.toFixed(2)}`;
         list.appendChild(li);
       }
     }
